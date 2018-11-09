@@ -8,9 +8,7 @@ ul,ol{ list-style: none; }
 h1,h2,h3,h4,h5,h6{ font-weight: normal; }
 .clearfix::after{ content: '';    display: block; clear: both; }
   
-[data-x].active{
-  outline: 10px solid red;
-}
+
 .topNavBar { padding: 20px 0; position: fixed; top: 0; left: 0; width: 100%; 
   transition: all 0.5s; color: #b7b7b7;
 }
